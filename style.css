@@ -6,6 +6,7 @@
     font-size:auto;
     margin:0px;
     padding:0px;
+    box-sizing:border-box;
     background-color:rgb(178, 255, 255);
 }
 body {
@@ -14,27 +15,42 @@ body {
 
 nav#one {
     height:50px;
-    width:650px;
+    width:700px;
     margin:0px 0px 0px;
     padding:10px;
     padding-left:50px;
 }
 
 div#one {
-    height:350px;
-    width:650px;
-    margin:-100px auto auto auto;
-    padding:auto;
+    height:50;
+    width:700px;
+    margin:-300px 0px opx;
+    padding:10px;
 }
-div#h2 {
+div#one div#h2 {
     height:-350px;
     width:-650px;
+    margin-top:-100px;
+}
+
+div.about-me,
+div.qualifications,
+div.experience,
+div.contacts {
+    height:auto;
+    width: 700px;
+    padding:10px;
+    margin:10px 0px 0px 0px;
+}
+div.contacts div p.inline {
+    margin-left:-100px;
+    padding:5px;
+    margin:auto auto auto auto;
 }
 
 .inline {
     display:inline-block;
 }
-
 
 p.inline {
     margin-left: 100px;
