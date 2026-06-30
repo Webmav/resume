@@ -56,13 +56,18 @@ div.contacts div p.inline {
     display:inline-block;
 }
 
-div#nav-p {
+div#nav-p,
+div#nav-p.inline p a{
     margin-top:0px;
     padding:0px;
     background-color:aqua;
 }
 p.inline {
-    margin: auto auto auto 135px;
+    margin: auto auto auto 60px;
+}
+div#nav-p.inline p a {
+    text-decoration:none;
+    color:black;
 }
 nav#one p {
     display:inline-block;
