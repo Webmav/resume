@@ -9,17 +9,29 @@
     box-sizing:border-box;
     background-color:rgb(178, 255, 255);
 }
-<!-- o*utline for edit purpose  -->
-body {
-
+.inline {
+    display:inline-block;
 }
 
-nav#one {
+
+nav {
     height:50px;
     width:700px;
     margin:0px 0px 0px 0px;
     padding:10px;
     padding-left:50px;
+    background-color:aqua;
+}
+nav p {
+    display:inline-block;
+    background-color:aqua;
+}
+nav p.one {
+    margin-left:10px;
+    width:auto;
+    background-color:aqua;
+}
+nav h1 {
     background-color:aqua;
 }
 
@@ -28,7 +40,7 @@ div#one {
     width:700px;
     margin:0px 0px 0px 0px;
     padding:10px;
-    background-image:url(/Users/ehr/repos/phase-one/resume/Bg.jpg);
+    background-image:url(/Users/ehr/repos/phase-one/resume/img/Bg.jpg);
 }
 div#one div#h2 {
     height:auto;
@@ -36,52 +48,6 @@ div#one div#h2 {
     margin-top:-100px;
     background-color: rgba(0, 0, 0, 0);
 }
-
-div.about-me,
-div.qualifications,
-div.experience,
-div.contacts {
-    height:auto;
-    width: 700px;
-    padding:10px;
-    margin:10px 0px 0px 0px;
-}
-div.contacts div p.inline {
-    margin-left:-100px;
-    padding:5px;
-    margin:auto auto auto auto;
-}
-
-.inline {
-    display:inline-block;
-}
-
-div#nav-p,
-div#nav-p.inline p a{
-    margin-top:0px;
-    padding:0px;
-    background-color:aqua;
-}
-p.inline {
-    margin: auto auto auto 60px;
-}
-div#nav-p.inline p a {
-    text-decoration:none;
-    color:black;
-}
-nav#one p {
-    display:inline-block;
-    background-color:aqua;
-}
-nav#one p.one {
-    margin-left:10px;
-    width:auto;
-    background-color:aqua;
-}
-nav#one h1 {
-    background-color:aqua;
-}
-
 div#one h2#one {
     margin:300px auto auto 100px;
     background-color:rgb(0,0,0,0);
@@ -102,4 +68,33 @@ div#one img {
     height:auto;
     width:45%;
     margin:-250px auto auto 350px;
+}
+
+div#nav-p,
+div#nav-p.inline p a{
+    margin-top:0px;
+    padding:0px;
+    background-color:aqua;
+}
+p.inline {
+    margin: auto auto auto 60px;
+}
+div#nav-p.inline p a {
+    text-decoration:none;
+    color:black;
+}
+
+div.about-me,
+div.qualifications,
+div.experience,
+div.contacts {
+    height:auto;
+    width: 700px;
+    padding:10px;
+    margin:10px 0px 0px 0px;
+}
+div.contacts div p.inline {
+    margin-left:-100px;
+    padding:5px;
+    margin:auto auto auto auto;
 }
